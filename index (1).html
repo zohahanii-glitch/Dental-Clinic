@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>London Dental Clinic | Dental Care in Willowbrook</title>
+  <meta name="description" content="London Dental Clinic in Willowbrook. Contact us for professional dental care and appointment information.">
+
+  <!-- Fonts: Fraunces (display) for warmth & trust, Public Sans (body/UI) for clean legibility -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Public+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner container">
+      <a href="#home" class="navbar__logo">
+        <span class="navbar__logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" width="34" height="34">
+            <path d="M20 3C11 3 5 9 5 17c0 6.5 3 10.5 3 15.5 0 2.7 1.6 4.5 3.6 4.5 2.7 0 3-3.3 3.4-7.4.3-3.3 1-5.6 5-5.6s4.7 2.3 5 5.6c.4 4.1.7 7.4 3.4 7.4 2 0 3.6-1.8 3.6-4.5C31 27.5 34 23.5 34 17 34 9 28 3 20 3z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span class="navbar__logo-text">London Dental Clinic</span>
+      </a>
+
+      <nav class="navbar__nav" id="navMenu">
+        <a href="#home" class="navbar__link">Home</a>
+        <a href="#about" class="navbar__link">About</a>
+        <a href="#services" class="navbar__link">Services</a>
+        <a href="#reviews" class="navbar__link">Reviews</a>
+        <a href="#contact" class="navbar__link">Contact</a>
+        <a href="#appointment" class="btn btn--primary btn--small navbar__cta">Book Appointment</a>
+      </nav>
+
+      <button class="navbar__toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="hero__arc" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__content reveal">
+          <p class="eyebrow">Willowbrook &middot; Springfield County</p>
+          <h1 class="hero__title">Your Smile Deserves the Best Care</h1>
+          <p class="hero__text">Professional dental care in Willowbrook, with a focus on quality, comfort and patient care.</p>
+          <div class="hero__actions">
+            <a href="#appointment" class="btn btn--primary">Book an Appointment</a>
+            <a href="tel:+15550109234" class="btn btn--ghost">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              Call Us
+            </a>
+          </div>
+        </div>
+        <div class="hero__media reveal">
+          <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1200&auto=format&fit=crop" alt="Modern dental clinic treatment room" loading="eager">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TRUST SECTION ============ -->
+    <section class="trust">
+      <div class="container trust__inner">
+        <div class="trust__rating reveal">
+          <div class="trust__stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p class="trust__rating-text"><strong>5.0</strong> Google Rating <span class="trust__dot">&middot;</span> <strong>4</strong> Google Reviews</p>
+        </div>
+
+        <div class="trust__cards">
+          <div class="trust__card reveal">
+            <span class="trust__icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 6v6c0 5 3.4 8.7 8 10 4.6-1.3 8-5 8-10V6l-8-4Z"/><path d="m9 12 2 2 4-4"/></svg>
+            </span>
+            <h3>Professional Care</h3>
+            <p>A patient-first approach focused on quality treatment and clear communication.</p>
+          </div>
+          <div class="trust__card reveal">
+            <span class="trust__icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/></svg>
+            </span>
+            <h3>Patient-Focused Service</h3>
+            <p>Every visit is centred on your comfort, questions and individual needs.</p>
+          </div>
+          <div class="trust__card reveal">
+            <span class="trust__icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            </span>
+            <h3>Convenient Location</h3>
+            <p>Easy to find in Willowbrook, opposite Cedar Park Bakery.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about" id="about">
+      <div class="container about__inner">
+        <div class="about__media reveal">
+          <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=1100&auto=format&fit=crop" alt="Dental clinic reception and interior" loading="lazy">
+        </div>
+        <div class="about__content reveal">
+          <p class="eyebrow">About Us</p>
+          <h2>About London Dental Clinic</h2>
+          <p>London Dental Clinic is located in Willowbrook, opposite Cedar Park Bakery. The clinic aims to provide a professional and patient-focused dental experience for the local community, in a clean, modern and welcoming environment.</p>
+          <p class="about__placeholder">[Add clinic history and dental team information here.]</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <!--
+      NOTE FOR SITE OWNER:
+      The six service cards below use common general-dentistry service names
+      as a starting point. Feel free to adjust the titles, descriptions, or
+      add/remove treatments to match what your clinic actually offers.
+    -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">What We Offer</p>
+          <h2>Our Services</h2>
+          <p class="section-heading__text">Comprehensive dental care, from routine checkups to specialised treatments.</p>
+        </div>
+
+        <div class="services__grid">
+          <div class="service-card reveal">
+            <span class="service-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.35-9-9c-1.4-3.3.2-6.6 3.2-7.5C8.5 3.7 10.6 4.8 12 6.6c1.4-1.8 3.5-2.9 5.8-2.1 3 .9 4.6 4.2 3.2 7.5-2 4.65-9 9-9 9Z"/></svg>
+            </span>
+            <h3>General Checkup &amp; Cleaning</h3>
+            <p>Routine examinations and professional cleaning to keep your teeth and gums healthy year-round.</p>
+          </div>
+          <div class="service-card reveal">
+            <span class="service-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8"/><path d="M12 8v4l3 2"/></svg>
+            </span>
+            <h3>Root Canal Treatment</h3>
+            <p>Pain-free root canal therapy to save infected or damaged teeth and relieve discomfort.</p>
+          </div>
+          <div class="service-card reveal">
+            <span class="service-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M9 9h6v6H9z"/></svg>
+            </span>
+            <h3>Dental Fillings</h3>
+            <p>Tooth-coloured fillings that restore cavities while keeping your smile natural-looking.</p>
+          </div>
+          <div class="service-card reveal">
+            <span class="service-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5-10-5Z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </span>
+            <h3>Braces &amp; Orthodontics</h3>
+            <p>Teeth-straightening solutions for all ages to help you achieve a properly aligned bite.</p>
+          </div>
+          <div class="service-card reveal">
+            <span class="service-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9 12a3 3 0 1 0 6 0 3 3 0 0 0-6 0Z"/></svg>
+            </span>
+            <h3>Teeth Whitening</h3>
+            <p>Safe, professional whitening treatments that brighten your smile in a single visit.</p>
+          </div>
+          <div class="service-card reveal">
+            <span class="service-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="M5 8h14l-2 12H7L5 8Z"/></svg>
+            </span>
+            <h3>Tooth Extraction</h3>
+            <p>Safe and comfortable removal of damaged or problematic teeth when needed.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHY CHOOSE US ============ -->
+    <section class="why">
+      <div class="container why__inner">
+        <div class="why__content reveal">
+          <p class="eyebrow">Why Us</p>
+          <h2>Why Patients Choose London Dental Clinic</h2>
+          <ul class="why__list">
+            <li>
+              <span class="why__check" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+              </span>
+              Professional Dental Care
+            </li>
+            <li>
+              <span class="why__check" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+              </span>
+              Patient Comfort
+            </li>
+            <li>
+              <span class="why__check" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+              </span>
+              Convenient Willowbrook Location
+            </li>
+            <li>
+              <span class="why__check" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+              </span>
+              Friendly Patient Experience
+            </li>
+          </ul>
+        </div>
+        <div class="why__hours reveal" id="hours">
+          <h3>Clinic Hours</h3>
+          <!-- Opening hours were not provided — editable placeholders below -->
+          <ul class="hours-list">
+            <li><span>Monday</span><span>10:00 AM – 8:00 PM</span></li>
+            <li><span>Tuesday</span><span>10:00 AM – 8:00 PM</span></li>
+            <li><span>Wednesday</span><span>10:00 AM – 8:00 PM</span></li>
+            <li><span>Thursday</span><span>10:00 AM – 8:00 PM</span></li>
+            <li><span>Friday</span><span>3:00 PM – 8:00 PM</span></li>
+            <li><span>Saturday</span><span>11:00 AM – 6:00 PM</span></li>
+            <li><span>Sunday</span><span>Closed</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ REVIEWS ============ -->
+    <section class="reviews" id="reviews">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Testimonials</p>
+          <h2>What Our Patients Say</h2>
+        </div>
+
+        <div class="reviews__grid">
+          <article class="review-card reveal">
+            <div class="review-card__stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="review-card__text">"Highly qualified and experienced dentist. Professional attitude and available whenever required."</p>
+            <div class="review-card__footer">
+              <span class="review-card__name">Jordan Ellis</span>
+              <span class="review-card__badge">Google Review</span>
+            </div>
+          </article>
+
+          <article class="review-card reveal">
+            <div class="review-card__stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="review-card__text">"The best dental clinic i have ever seen in my town. Highly qualified doctor in term of experience and quality of work they provided."</p>
+            <div class="review-card__footer">
+              <span class="review-card__name">Marcus Bennett</span>
+              <span class="review-card__badge">Google Review</span>
+            </div>
+          </article>
+
+          <article class="review-card reveal">
+            <div class="review-card__stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <p class="review-card__text">"This hospital is very good and dental clinic should be shown in this hospital."</p>
+            <div class="review-card__footer">
+              <span class="review-card__name">Alex Rivera</span>
+              <span class="review-card__badge">Google Review</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ APPOINTMENT CTA ============ -->
+    <section class="cta">
+      <div class="container cta__inner reveal">
+        <h2>Ready to Take Care of Your Smile?</h2>
+        <p>Contact London Dental Clinic to ask about an appointment.</p>
+        <div class="cta__actions">
+          <a href="tel:+15550109234" class="btn btn--light">Call Us</a>
+          <a href="#appointment" class="btn btn--outline-light">Book an Appointment</a>
+          <a href="https://wa.me/15550109234" target="_blank" rel="noopener" class="btn btn--whatsapp">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.5-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.4 0-.5 0-.1-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1.1 2.8 1.2 3c.1.2 2.2 3.3 5.2 4.7.7.3 1.3.5 1.8.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.6.2-1.1.2-1.3-.1-.1-.3-.2-.6-.3Z"/><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 20.2 12 8.2 8.2 0 0 1 12 20.2Z"/></svg>
+            WhatsApp Us
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ APPOINTMENT FORM ============ -->
+    <section class="appointment" id="appointment">
+      <div class="container appointment__inner">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Request a Visit</p>
+          <h2>Book an Appointment</h2>
+          <p class="section-heading__text">This is a front-end demo form &mdash; requests are not sent anywhere.</p>
+        </div>
+
+        <form class="appointment__form reveal" id="appointmentForm" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="fullName">Full Name</label>
+              <input type="text" id="fullName" name="fullName" placeholder="Your full name" required>
+              <span class="form-error" id="fullNameError"></span>
+            </div>
+            <div class="form-field">
+              <label for="phoneNumber">Phone Number</label>
+              <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="03XX XXXXXXX" required>
+              <span class="form-error" id="phoneNumberError"></span>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-field">
+              <label for="preferredDate">Preferred Date</label>
+              <input type="date" id="preferredDate" name="preferredDate" required>
+              <span class="form-error" id="preferredDateError"></span>
+            </div>
+            <div class="form-field">
+              <label for="preferredTime">Preferred Time</label>
+              <input type="time" id="preferredTime" name="preferredTime" required>
+              <span class="form-error" id="preferredTimeError"></span>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us briefly what you'd like help with (optional)"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--wide">Request Appointment</button>
+
+          <p class="form-success" id="formSuccess" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Get In Touch</p>
+          <h2>Visit London Dental Clinic</h2>
+        </div>
+
+        <div class="contact__card reveal">
+          <div class="contact__details">
+            <h3>London Dental Clinic</h3>
+            <p>245 Maple Ridge Avenue, Suite 12, opposite Cedar Park Bakery,<br>Willowbrook, Springfield County</p>
+            <p class="contact__phone">Phone: <a href="tel:+15550109234">+1 (555) 010-9234</a></p>
+            <p class="contact__email">Email: <a href="mailto:info@londondentalclinic.example">info@londondentalclinic.example</a></p>
+
+            <div class="contact__actions">
+              <a href="tel:+15550109234" class="btn btn--primary btn--small">Call Now</a>
+              <a href="https://wa.me/15550109234" target="_blank" rel="noopener" class="btn btn--whatsapp btn--small">WhatsApp</a>
+              <a href="https://www.google.com/maps/search/?api=1&query=245%20Maple%20Ridge%20Avenue%2C%20Willowbrook" target="_blank" rel="noopener" class="btn btn--ghost btn--small">Open in Google Maps</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="navbar__logo-text footer__logo">London Dental Clinic</span>
+        <p>Professional dental care in Willowbrook.</p>
+      </div>
+
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer__contact">
+        <h4>Contact</h4>
+        <p><a href="tel:+15550109234">+1 (555) 010-9234</a></p>
+        <p><a href="mailto:info@londondentalclinic.example">info@londondentalclinic.example</a></p>
+        <p>Willowbrook, Springfield County</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 London Dental Clinic. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
